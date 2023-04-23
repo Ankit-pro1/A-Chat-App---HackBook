@@ -67,4 +67,113 @@
 .formContainer .wrapper .formFooter {
   margin-top: 30px;
   text-align: center;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top left, #036295, #003f9e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .container {
+  background-color: #fff;
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  color: #fff;
+}
+.home .sidebar {
+  flex: 1;
+  border-right: 1px solid #000;
+  background-color: #0d1117;
+}
+.home .sidebar .navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background-color: #161b22;
+}
+.home .sidebar .navbar .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.home .sidebar .navbar .user img {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.home .sidebar .navbar .user .sm-btn {
+  background-color: #3a3a3a;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.home .sidebar .search {
+  border-bottom: 1px solid #dbdbdb;
+}
+.home .sidebar .search .searchForm input {
+  width: 100%;
+  padding: 10px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.home .sidebar .userChat {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.home .sidebar .userChat:hover {
+  background-color: #161b22;
+}
+.home .sidebar .userChat img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.home .sidebar .chats .userChatInfo p {
+  font-weight: 500;
+  line-height: 6px;
+}
+.home .sidebar .chats .userChatInfo span {
+  font-size: 12px;
+  color: #fff;
+}
+.home .chat {
+  flex: 2;
+  background-color: #fff;
+}
+.home .chat .chatInfo {
+  height: 50px;
+  background-color: #0d1117;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.home .chat .chatInfoIcons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.home .chat .chatInfoIcons img {
+  width: 24px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
