@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+
+.formContainer {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top left, #036295, #003f9e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer .wrapper {
+  width: 24%;
+  background-color: #fff;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+.formContainer .wrapper .formHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.formContainer .wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formContainer .wrapper form input {
+  width: 100%;
+  padding: 10px 6px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #dbdbdb;
+}
+.formContainer .wrapper form input[type=file] {
+  display: none;
+}
+.formContainer .wrapper form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.formContainer .wrapper form label img {
+  width: 30px;
+}
+.formContainer .wrapper form label p {
+  font-size: 14px;
+}
+.formContainer .wrapper form .btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 0;
+  background: linear-gradient(to top left, #036295, #003f9e);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.formContainer .wrapper .formFooter {
+  margin-top: 30px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
